@@ -1,0 +1,159 @@
+---
+title: "Chapter 10 Exercises"
+author: "Eugene Yan"
+date: "22 March 2015"
+output: html_document
+---
+
+### Qn 1.a
+Proof of Equation (10.12) $$ \frac{1}{|C_k|} \sum\limits_{i,i^{\prime} \in C_k} \sum\limits_{j=1}^p (x_{ij} - x_{i^\prime j})^2 = 2 \sum\limits_{i \in C_k} \sum\limits_{j=1}^{p} (x_{ij} - \bar{x}{kj})^2 \ = \frac{1}{|C_k|} \sum\limits{i,i^{\prime} \in C_k} \sum\limits_{j=1}^p ((x_{ij} - \bar{x}{kj}) - (x{i^\prime j} - \bar{x}{kj}))^2 \ = \frac{1}{|C_k|} \sum\limits{i,i^{\prime} \in C_k} \sum\limits_{j=1}^p ((x_{ij} - \bar{x}{kj})^2 - 2 (x{ij} - \bar{x}{kj})(x{i^\prime j} - \bar{x}{kj}) + (x{i^\prime j} - \bar{x}{kj})^2) \ = \frac{|C_k|}{|C_k|} \sum\limits{i \in C_k} \sum\limits_{j=1}^p (x_{ij} - \bar{x}{kj})^2 + \frac{|C_k|}{|C_k|} \sum\limits{i^{\prime} \in C_k} \sum\limits_{j=1}^p (x_{i^\prime j} - \bar{x}{kj})^2 - \frac{2}{|C_k|} \sum\limits{i,i^{\prime} \in C_k} \sum\limits_{j=1}^p (x_{ij} - \bar{x}{kj})(x{i^\prime j} - \bar{x}{kj}) \ = 2 \sum\limits{i \in C_k} \sum\limits_{j=1}^p (x_{ij} - \bar{x}_{kj})^2 + 0 $$
+
+### Qn 1.b 
+Equation (10.12) shows that minimizing the sum of the squared Euclidean distance for each cluster is the same as minimizing the within-cluster variance for each cluster.
+
+### Qn 2.a
+```{r}
+d = as.dist(matrix(c(0, 0.3, 0.4, 0.7, 
+                     0.3, 0, 0.5, 0.8,
+                     0.4, 0.5, 0.0, 0.45,
+                     0.7, 0.8, 0.45, 0.0), nrow=4))
+plot(hclust(d, method="complete"))
+```
+
+### Qn 2.b
+```{r}
+d = as.dist(matrix(c(0, 0.3, 0.4, 0.7, 
+                     0.3, 0, 0.5, 0.8,
+                     0.4, 0.5, 0.0, 0.45,
+                     0.7, 0.8, 0.45, 0.0), nrow=4))
+plot(hclust(d, method="single"))
+```
+This time, the cluster of {1, 2} join with 3 at the second step as 3 is closer to 1 than to 4.
+
+### Qn 2.c
+We get {1, 2} and {3, 4}
+
+### Qn 2.d
+We get {1, 2, 3} and {4}
+
+### Qn 2.e
+```{r}
+plot(hclust(d, method="complete"), labels=c(2,1,4,3))
+```
+
+### Qn 3.a
+```{r}
+obs <- data.frame(x1 = c(1, 1, 0, 5, 6, 4), x2 = c(4, 3, 4, 1, 2, 0))
+plot(obs, pch = 19)
+```
+
+### Qn 3.b
+```{r}
+labels <- sample(2, nrow(obs), replace=T)
+labels
+```
+
+### Qn 3.c
+```{r}
+centroid1 = c(mean(obs[labels==1, 1]), mean(obs[labels==1, 2]))
+centroid2 = c(mean(obs[labels==2, 1]), mean(obs[labels==2, 2]))
+centroid1
+centroid2
+plot(obs[,1], obs[,2], col=(labels+1), pch=20, cex=2)
+points(centroid1[1], centroid1[2], col=2, pch=4)
+points(centroid2[1], centroid2[2], col=3, pch=4)
+```
+
+### Qn 3.d
+```{r}
+euclid = function(a, b) {
+  return(sqrt((a[1] - b[1])^2 + (a[2]-b[2])^2))
+}
+assign_labels = function(x, centroid1, centroid2) {
+  labels = rep(NA, nrow(x))
+  for (i in 1:nrow(x)) {
+    if (euclid(x[i,], centroid1) < euclid(x[i,], centroid2)) {
+      labels[i] = 1
+    } else {
+      labels[i] = 2
+    }
+  }
+  return(labels)
+}
+labels = assign_labels(obs, centroid1, centroid2)
+labels
+```
+
+### Qn 3.e
+```{r}
+last_labels = rep(-1, 6)
+while (!all(last_labels == labels)) {
+  last_labels = labels
+  centroid1 = c(mean(obs[labels==1, 1]), mean(obs[labels==1, 2]))
+  centroid2 = c(mean(obs[labels==2, 1]), mean(obs[labels==2, 2]))
+  print(centroid1)
+  print(centroid2)
+  labels = assign_labels(obs, centroid1, centroid2)
+}
+labels
+```
+
+### Qn 3.f
+```{r}
+plot(obs[,1], obs[,2], col=(labels+1), pch=20, cex=2)
+points(centroid1[1], centroid1[2], col=2, pch=4, cex = 5)
+points(centroid2[1], centroid2[2], col=3, pch=4, cex = 5)
+```
+
+### Qn 4.a
+Not enough information to tell. The maximal intercluster dissimilarity could be equal or not equal to the minimial intercluster dissimilarity. If the dissimilarities were equal, they would fuse at the same height. If they were not equal, they single linkage dendogram would fuse at a lower height.
+
+### Qn 4.b
+They would fuse at the same height because linkage does not affect leaf-to-leaf fusion.
+
+### Qn 5
+### a
+Least socks and computers (3, 4, 6, 8) versus more socks and computers (1, 2, 7, 8).
+
+### b
+
+Purchased computer (5, 6, 7, 8) versus no computer purchase (1, 2, 3, 4). The distance on the computer dimension is greater than the distance on the socks dimension.
+
+### c
+Purchased computer (5, 6, 7, 8) versus no computer purchase (1, 2, 3, 4).
+
+### Qn 6.a
+The first principal component "explains 10% of the variation" means 90% of the information in the gene data set is lost by projecting the tissue sample observations onto the first principal component. Another way of explaining it is 90% of the variance in the data is not contained in the first principal component.
+
+### Qn 6.b
+Given the flaw shown in pre-analysis of a time-wise linear trend amongst the tissue samples' first principal component, I would advise the researcher to include the machine used (A vs B) as a feature of the data set. This should enhance the PVE of the first principal component before applying the two-sample t-test.
+
+### Qn 6.c
+```{r}
+set.seed(1)
+Control = matrix(rnorm(50*1000), ncol=50)
+Treatment = matrix(rnorm(50*1000), ncol=50)
+X = cbind(Control, Treatment)
+X[1,] = seq(-18, 18 - .36, .36) # linear trend in one dimension
+pr.out = prcomp(scale(X))
+summary(pr.out)$importance[,1]
+```
+
+9.911% variance explained by the first principal component.
+
+Now, adding in A vs B via 10 vs 0 encoding.
+
+```{r}
+X = rbind(X, c(rep(10, 50), rep(0, 50)))
+pr.out = prcomp(scale(X))
+summary(pr.out)$importance[,1]
+```
+11.54% variance explained by the first principal component. That's an improvement of 1.629%.
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+---
+title: "Chapter 5 Exercises"
+output: html_document
+---
+
+# Qn 1
+$$ Var(X+Y) = Var(X) + Var(Y) + 2 Cov(X,Y) $$ 
+$$ Var(cX) = c^2 Var(X) $$
+$$ Cov(cX,Y) = Cov(X,cY) = c Cov(X,Y) $$
+
+Minimizing two-asset financial portfolio: $$ Var(\alpha X + (1 - \alpha)Y) \ = Var(\alpha X) + Var((1 - \alpha) Y) + 2 Cov(\alpha X, (1 - \alpha) Y) \ = \alpha^2 Var(X) + (1 - \alpha)^2 Var(Y) + 2 \alpha (1 - \alpha) Cov(X, Y) \ = \sigma_X^2 \alpha^2 + \sigma_Y^2 (1 - \alpha)^2 + 2 \sigma_{XY} (-\alpha^2 + \alpha) $$
+
+Take the first derivative to find critical points: $$ 0 = \frac {d} {d\alpha} f(\alpha) \ 0 = 2 \sigma_X^2 \alpha + 2 \sigma_Y^2 (1 - \alpha) (-1) + 2 \sigma_{XY} (-2 \alpha + 1) \ 0 = \sigma_X^2 \alpha + \sigma_Y^2 (\alpha - 1) + \sigma_{XY} (-2 \alpha + 1) \ 0 = (\sigma_X^2 + \sigma_Y^2 - 2 \sigma_{XY}) \alpha - \sigma_Y^2 + \sigma_{XY} \ \alpha = \frac {\sigma_Y^2 - \sigma_{XY}} {\sigma_X^2 + \sigma_Y^2 - 2 \sigma_{XY}} $$
+
+# Qn 2.a
+$1 - 1/n$
+
+# Qn 2.b
+$1 - 1/n$
+
+# Qn 2.c
+In bootstrap, we sample with replacement so each observation in the bootstrap sample has the same 1/n (independent) chance of equaling the jth observation. Applying the product rule for a total of n observations gives us $(1 - 1/n)^n$.
+
+# Qn 2.d
+$Pr(in) = 1 - Pr(out) = 1 - (1 - 1/5)^5 = 1 - (4/5)^5 = 67.2\%$
+
+# Qn 2.e
+$Pr(in) = 1 - Pr(out) = 1 - (1 - 1/100)^{10} = 1 - (99/100)^{100} = 63.4\%$
+
+# Qn 2.f
+$1 - (1 - 1/10000)^{10000} = 63.2\%$
+
+# Qn 2.g
+```
+pr <- function(n) {
+  return(1 - (1 - 1/n)^n)
+}
+x <- 1:100000
+plot(x, pr(x))
+The plot reaches an asymptote of about 63.2%.  I.e., the bootstrap will usually contain 63% of observations
+```
+
+# Qn 2.h
+store <- rep(NA, 10000)
+for (i in 1:10000) {
+  store[i] <- sum(sample(1:100, rep = T) == 4) > 0
+}
+mean(store)
+The numeric results show 0.6418, close to the theoretically derived result
+
+# Qn 3.a
+k-fold cross-validation is implemented by taking the set of n observations and randomly splitting into k non-overlapping groups. Each of these groups acts as a validation set and the remainder as a training set. The test error is estimated by averaging the k resulting MSE estimates.
+
+# Qn 3.b
+i. The validation set approach is conceptually simple and easily implemented as you are simply partitioning the existing training data into two sets. However, there are two drawbacks: (1.) the estimate of the test error rate can be highly variable depending on which observations are included in the training and validation sets. (2.) the validation set error rate may tend to overestimate the test error rate for the model fit on the entire data set.
+
+ii. LOOCV is a special case of k-fold cross-validation with k = n. Thus, LOOCV is the most computationally intense method since the model must be fit n times. Also, LOOCV has higher variance, but lower bias, than k-fold CV.
+
+# Qn 4
+If we suppose using some statistical learning method to make a prediction for the response $Y$ for a particular value of the predictor $X$ we might estimate the standard deviation of our prediction by using the bootstrap approach. The bootstrap approach works by repeatedly sampling observations (with replacement) from the original data set $B$ times, for some large value of $B$, each time fitting a new model and subsequently obtaining the RMSE of the estimates for all $B$ models.
+

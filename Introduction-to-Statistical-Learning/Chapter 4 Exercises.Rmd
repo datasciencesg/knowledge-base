@@ -1,0 +1,79 @@
+---
+title: "Chapter 4 Exercises"
+output: html_document
+---
+
+# Qn 2
+Assuming that $f_k(x)$ is normal, the probability that an observation $x$ is in class $k$ is given by $$ p_k(x) = \frac {\pi_k \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_k)^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }} $$ while the discriminant function is given by $$ \delta_k(x) = x \frac {\mu_k} {\sigma^2} - \frac {\mu_k^2} {2 \sigma^2} + \log(\pi_k) $$
+  
+  Claim: Maximizing $p_k(x)$ is equivalent to maximizing $\delta_k(x)$.
+
+Proof. Let $x$ remain fixed and observe that we are maximizing over the parameter $k$. Suppose that $\delta_k(x) \geq \delta_i(x)$. We will show that $f_k(x) \geq f_i(x)$. From our assumption we have $$ x \frac {\mu_k} {\sigma^2} - \frac {\mu_k^2} {2 \sigma^2} + \log(\pi_k) \geq x \frac {\mu_i} {\sigma^2} - \frac {\mu_i^2} {2 \sigma^2} + \log(\pi_i). $$ Exponentiation is a monotonically increasing function, so the following inequality holds $$ \pi_k \exp (x \frac {\mu_k} {\sigma^2} - \frac {\mu_k^2} {2 \sigma^2}) \geq \pi_i \exp (x \frac {\mu_i} {\sigma^2} - \frac {\mu_i^2} {2 \sigma^2}) $$ Multipy this inequality by the positive constant $$ c = \frac { \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} x^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }} $$ and we have that $$
+  
+  \frac {\pi_k \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_k)^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }}
+
+\geq
+
+\frac {\pi_i \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_i)^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }} $$ or equivalently, $f_k(x) \geq f_i(x)$. Reversing these steps also holds, so we have that maximizing $\delta_k$ is equivalent to maximizing $p_k$.
+
+# Qn 3
+$$ p_k(x) = \frac {\pi_k \frac {1} {\sqrt{2 \pi} \sigma_k} \exp(- \frac {1} {2 \sigma_k^2} (x - \mu_k)^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma_l} \exp(- \frac {1} {2 \sigma_l^2} (x - \mu_l)^2) }} \ \log(p_k(x)) = \frac {\log(\pi_k) + \log(\frac {1} {\sqrt{2 \pi} \sigma_k}) + - \frac {1} {2 \sigma_k^2} (x - \mu_k)^2 } {\log(\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma_l} \exp(- \frac {1} {2 \sigma_l^2} (x - \mu_l)^2) })} \ \log(p_k(x)) \log(\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma_l} \exp(- \frac {1} {2 \sigma_l^2} (x - \mu_l)^2) }) = \log(\pi_k) + \log(\frac {1} {\sqrt{2 \pi} \sigma_k}) +
+
+\frac {1} {2 \sigma_k^2} (x - \mu_k)^2
+\ \delta(x) = \log(\pi_k) + \log(\frac {1} {\sqrt{2 \pi} \sigma_k}) +
+\frac {1} {2 \sigma_k^2} (x - \mu_k)^2 $$
+As you can see, $\delta(x)$ is a quadratic function of $x$.
+
+# Qn 4.a
+10% will be used on average
+
+# Qn 4.b
+0.1 * 0.1 = 1% will be used on average
+
+# Qn 4.c
+0.1^100 will be used on average
+
+# Qn 4.d
+At higher dimensions (i.e., n), only 0.1^n of training observations will be used
+
+# Qn 4.d
+When p = 1, length = 0.1
+When p = 2, length = sqrt(0.1) = 0.32
+When p = 100, length = 0.1^(1/100)
+
+# Qn 5.a
+QDA will perform better on training set but may overfit.  Thus, LDA will perform better on test set.
+
+# Qn 5.b
+QDA will perform better on training set and test set.
+
+# Qn 5.c
+As n increases, we expecd QDA to improve as there are more points to fit the decision boundary
+
+# Qn 5.d
+False.  If there are very few training observations, then the QDA will overfit
+
+# Qn 6.a
+Refer to 4.7
+$$ X = [40 hours, 3.5 GPA] \ p(X) = \frac {\exp(-6 + 0.05 X_1 + X_2)} {1 + \exp(-6 + 0.05 X_1 + X_2)} \ = \frac {\exp(-6 + 0.05 40 + 3.5)} {1 + \exp(-6 + 0.05 40 + 3.5)} \ = \frac {\exp(-0.5)} {1 + \exp(-0.5)} \ = 37.75\% $$
+
+# Q 6.b
+$$ X = [X_1 hours, 3.5 GPA] \ p(X) = \frac {\exp(-6 + 0.05 X_1 + X_2)} {1 + \exp(-6 + 0.05 X_1 + X_2)} \ 0.50 = \frac {\exp(-6 + 0.05 X_1 + 3.5)} {1 + \exp(-6 + 0.05 X_1 + 3.5)} \ 0.50 (1 + \exp(-2.5 + 0.05 X_1)) = \exp(-2.5 + 0.05 X_1) \ 0.50 + 0.50 \exp(-2.5 + 0.05 X_1)) = \exp(-2.5 + 0.05 X_1) \ 0.50 = 0.50 \exp(-2.5 + 0.05 X_1) \ \log(1) = -2.5 + 0.05 X_1 \ X_1 = 2.5 / 0.05 = 50 hours $$
+
+# Qn 7
+Refer to 4.12
+$$ p_k(x) = \frac {\pi_k \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_k)^2) } {\sum { \pi_l \frac {1} {\sqrt{2 \pi} \sigma} \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }} \ = \frac {\pi_{yes} \exp(- \frac {1} {2 \sigma^2} (x - \mu_{yes})^2) } {\sum { \pi_l \exp(- \frac {1} {2 \sigma^2} (x - \mu_l)^2) }} \ = \frac {\pi_{yes} \exp(- \frac {1} {2 \sigma^2} (x - \mu_{yes})^2)} { \pi_{yes} \exp(- \frac {1} {2 \sigma^2} (x - \mu_{yes})^2) + \pi_{no} \exp(- \frac {1} {2 \sigma^2} (x - \mu_{no})^2) } \ = \frac {0.80 \exp(- \frac {1} {2 * 36} (x - 10)^2)} { 0.80 \exp(- \frac {1} {2 * 36} (x - 10)^2) + 0.20 \exp(- \frac {1} {2 * 36} x^2) } \ p_{yes}(4) = \frac {0.80 \exp(- \frac {1} {2 * 36} (4 - 10)^2)} { 0.80 \exp(- \frac {1} {2 * 36} (4 - 10)^2) + 0.20 \exp(- \frac {1} {2 * 36} 4^2) } = 75.2\% $$
+
+# Qn 8
+Given:
+
+Logistic regression: 20% training error rate, 30% test error rate KNN(K=1): average error rate of 18%
+
+For KNN with K=1, the training error rate is 0% because for any training observation, its nearest neighbor will be the response itself. So, KNN has a test error rate of 36%. I would choose logistic regression because of its lower test error rate of 30%.
+
+# Qn 9.a
+$$ \frac {p(X)} {1 - p(X)} = 0.37 \ p(X) = 0.37 (1 - p(X)) \ 1.37 p(X) = 0.37 \ p(X) = \frac {0.37} {1.37} = 27\% $$
+
+# Qn 9.b
+
+$$ odds = \frac {p(X)} {1 - p(X)} = .16 / .84 = 0.19 $$

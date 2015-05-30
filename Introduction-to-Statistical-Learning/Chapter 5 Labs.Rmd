@@ -1,0 +1,275 @@
+
+
+```r
+### Cross-Validation and the Bootstrap
+# Validation set approach
+library(ISLR)
+library(boot)
+set.seed(1)
+
+auto <- Auto
+
+# create training and testing sets
+train <- auto %>%
+  sample_frac(0.5)
+
+test <- setdiff(auto, train)
+
+# create linear model
+lm.fit <- lm(mpg ~ horsepower, data = train)
+
+# calculate MSE on the test set
+mean((test$mpg - predict(lm.fit, newdata = test))^2)
+```
+
+```
+## [1] 26.14142
+```
+
+```r
+# create and test quadratic regression
+lm.fit2 <- lm(mpg ~ poly(horsepower, 2), data = train)
+mean((test$mpg - predict(lm.fit2, test))^2)
+```
+
+```
+## [1] 19.82259
+```
+
+```r
+# create and test cubic regression
+lm.fit3 <- lm(mpg ~ poly(horsepower, 3), data = train)
+mean((test$mpg - predict(lm.fit3, test))^2)
+```
+
+```
+## [1] 19.78252
+```
+
+```r
+# Leave-One-Out Cross Validation
+glm.fit <- glm(mpg ~ horsepower, data = auto)
+cv.err <- cv.glm(auto, glm.fit)
+
+# examine CV estimate of prediction error
+cv.err$delta
+```
+
+```
+## [1] 24.23151 24.23114
+```
+
+```r
+# create and test polynomial regressions
+cv.err <- rep(0, 5)
+for (i in 1:5) {
+  glm.fit = glm(mpg ~ poly(horsepower, i), data = auto)
+  cv.err[i] = cv.glm(auto, glm.fit)$delta[1]
+}
+cv.err
+```
+
+```
+## [1] 24.23151 19.24821 19.33498 19.42443 19.03321
+```
+
+```r
+degree <- 1:5
+
+# plot error rates across varying polynomials
+plot(degree, cv.err, type = 'b')
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png) 
+
+```r
+# k-Fold Cross-Validation
+set.seed(3)
+cv.err <- rep(0, 10)
+for (i in 1:10) {
+  glm.fit <- glm(mpg ~ poly(horsepower, i), data = auto)
+  cv.err[i] = cv.glm(auto, glm.fit, K = 10)$delta[1]
+}
+cv.err
+```
+
+```
+##  [1] 24.44562 19.18173 19.40868 19.29196 18.93502 19.01750 18.44798
+##  [8] 19.05446 19.12885 19.66910
+```
+
+```r
+degree <- 1:10
+
+# plot error rates 
+plot(degree, cv.err, type = 'b')
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-2.png) 
+
+```r
+### Bootstrap
+port <- Portfolio
+
+# create alpha function (as described in Section 5.2)
+alpha.fn <- function(data, index) {
+  X <- data$X[index]
+  Y <- data$Y[index]
+  return((var(Y) - cov(X, Y))/(var(X) + var(Y) - 2 * cov(X, Y)))
+}
+alpha.fn(port, 1:100)
+```
+
+```
+## [1] 0.5758321
+```
+
+```r
+set.seed(1)
+alpha.fn(port, sample(100, 100, replace = T))
+```
+
+```
+## [1] 0.5963833
+```
+
+```r
+# create bootstrap estimates
+boot(port, alpha.fn, R = 1000)
+```
+
+```
+## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = port, statistic = alpha.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##      original        bias    std. error
+## t1* 0.5758321 -7.315422e-05  0.08861826
+```
+
+```r
+# Using bootstrap to estimate accuracy of linear regression model
+boot.fn <- function(data, index) {
+  return(coef(lm(mpg ~ horsepower, data = data, subset = index)))
+}
+
+boot.fn(Auto, 1:392)
+```
+
+```
+## (Intercept)  horsepower 
+##  39.9358610  -0.1578447
+```
+
+```r
+set.seed(1)
+boot.fn(Auto, sample(392, 392, replace = T))
+```
+
+```
+## (Intercept)  horsepower 
+##  38.7387134  -0.1481952
+```
+
+```r
+# compute standard errors of 1000 bootstrap estimates
+boot(Auto, boot.fn, 1000)
+```
+
+```
+## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Auto, statistic = boot.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##       original        bias    std. error
+## t1* 39.9358610  0.0296667441 0.860440524
+## t2* -0.1578447 -0.0003113047 0.007411218
+```
+
+```r
+# compute standard errors from summar function
+summary(lm(mpg ~ horsepower, data = Auto))  # read pg 196 for the difference between the bootstrap and the summary from lm
+```
+
+```
+## 
+## Call:
+## lm(formula = mpg ~ horsepower, data = Auto)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -13.5710  -3.2592  -0.3435   2.7630  16.9240 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(>|t|)    
+## (Intercept) 39.935861   0.717499   55.66   <2e-16 ***
+## horsepower  -0.157845   0.006446  -24.49   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 4.906 on 390 degrees of freedom
+## Multiple R-squared:  0.6059,	Adjusted R-squared:  0.6049 
+## F-statistic: 599.7 on 1 and 390 DF,  p-value: < 2.2e-16
+```
+
+```r
+# compute bootstrap and summary using quadratic model
+boot.fn <- function(data, index) {
+  return(coef(lm(mpg ~ horsepower + I(horsepower^2), data = data, subset = index)))
+}
+set.seed(1)
+boot(Auto, boot.fn, 1000)
+```
+
+```
+## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Auto, statistic = boot.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##         original        bias     std. error
+## t1* 56.900099702  6.098115e-03 2.0944855842
+## t2* -0.466189630 -1.777108e-04 0.0334123802
+## t3*  0.001230536  1.324315e-06 0.0001208339
+```
+
+```r
+summary(lm(mpg ~ horsepower + I(horsepower^2), data = Auto))
+```
+
+```
+## 
+## Call:
+## lm(formula = mpg ~ horsepower + I(horsepower^2), data = Auto)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -14.7135  -2.5943  -0.0859   2.2868  15.8961 
+## 
+## Coefficients:
+##                   Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)     56.9000997  1.8004268   31.60   <2e-16 ***
+## horsepower      -0.4661896  0.0311246  -14.98   <2e-16 ***
+## I(horsepower^2)  0.0012305  0.0001221   10.08   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 4.374 on 389 degrees of freedom
+## Multiple R-squared:  0.6876,	Adjusted R-squared:  0.686 
+## F-statistic:   428 on 2 and 389 DF,  p-value: < 2.2e-16
+```
+
