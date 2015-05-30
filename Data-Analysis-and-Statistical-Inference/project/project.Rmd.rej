@@ -1,0 +1,10 @@
+diff a/project.Rmd b/project.Rmd	(rejected hunks)
+@@ -1,6 +1,8 @@
+ <!-- Make sure that the knitr package is installed and loaded. -->
+ <!-- For more info on the package options see http://yihui.name/knitr/options -->
+ 
++install.packages("knitr")
++
+ <!-- Replace below with the title of your project -->
+ ### What is the relationship between one’s highest level education level attained and one’s income?
+ 
