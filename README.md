@@ -13,5 +13,5 @@ Knowledge base for DSSG. MOOCs, Hackathons, Kaggle Code sharing goes here
 coming soon...
 
 ### Kaggle Code sharing
-coming soon
+coming soon...
 
