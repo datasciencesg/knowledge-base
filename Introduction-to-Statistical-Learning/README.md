@@ -1,2 +1,3 @@
-# Statistical-Learning
-Repository for my R code for the Winter 2015 Statistical Learning Course from Stanford
+### Introduction to Statistical Learning
+
+Lecture examples, quizzes, and textbook exercises for Stanford OpenX: Introduction to Statistical Learning (Jan 2015)
