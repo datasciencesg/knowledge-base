@@ -25,9 +25,13 @@ Knowledge base for DSSG.
 
 ### Further studies - Masters
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
-- [Online Masters of Science in Computer Science, Georgia Tech, $8,000USD](https://www.omscs.gatech.edu/)
-- [Online Masters of Science in Analytics, Georgia Tech, $10,000USD](https://pe.gatech.edu/degrees/analytics)
-- [Online Masters of Science in Data Science, UIUC, $21,000USD](https://www.coursera.org/degrees/masters-in-computer-data-science)
-- [Online Masters of Computer Science, UIUC, $21,000USD](https://www.coursera.org/degrees/master-of-computer-science-illinois)
-- [Online Masters of Science in Computer Science, Georgia Tech, $10,000USD](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)
-- [Master of Science in Business Analytics, $40,000+SGD](http://msba.nus.edu/)
+- [CS school ranking for reference](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
+- [Online Masters of Science in Computer Science, Georgia Tech, $8,000USD,CS rank 7](https://www.omscs.gatech.edu/)
+- [Online Masters of Science in Analytics, Georgia Tech, $10,000USD,CS rank 7](https://pe.gatech.edu/degrees/analytics)
+- [Master of Science in Business Analytics, $40,000+SGD, CS rank 15](http://msba.nus.edu/)
+- [Online Masters of Science in Computer Science, UT Austin, $10,000USD, CS rank 18](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)
+- [Online Masters of Science in Data Science, UIUC, $21,000USD,CS rank 25](https://www.coursera.org/degrees/masters-in-computer-data-science)
+- [Online Masters of Computer Science, UIUC, $21,000USD, CS rank 25](https://www.coursera.org/degrees/master-of-computer-science-illinois)
+
+
+
