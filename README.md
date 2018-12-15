@@ -9,7 +9,7 @@ Knowledge base for DSSG.
 - [The Open Source Data Science Masters](http://datasciencemasters.org/)
 - [Data Science Curriculum from Scratch 2018](https://towardsdatascience.com/data-science-curriculum-from-scratch-2018-part-1-35061303c385)
 - [Numsense! Data Science for the Layman: No Math Added](https://www.amazon.com/gp/product/B01N29ZEM6/ref=dbs_a_def_rwt_bibl_vppi_i0)
-- [The Best Machine Learning Resources](https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1)
+- [Machine Learning Resources](https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1)
 - [What would be useful for aspiring data scientists to know?
 ](https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97)
 - [Open Source Society University - Data Science](https://github.com/ossu/data-science)
