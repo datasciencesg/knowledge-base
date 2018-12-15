@@ -32,7 +32,7 @@ Knowledge base for DSSG.
 
 ### Sharing about the Data Journey
 - [Rosebud Anwuri's Journey](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
-- [Rutger Ruizendaal's Journey](https://towardsdatascience.com/my-journey-into-data-science-ac1d2e09ed03)
+- [Freddie Odukomaiya's Journey](https://medium.com/@FreddieO/how-to-become-a-data-scientist-in-12-months-7e0deb51fac5)
 - [Manja Bogicevic's Journey](https://medium.com/datadriveninvestor/how-to-become-a-top-data-scientist-in-6-months-my-journey-and-experience-83a05b5fe167)
 
 ### Further studies - Masters from top schools accessible in Singapore, sorted by price and CS ranking.
