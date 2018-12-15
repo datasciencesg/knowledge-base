@@ -13,9 +13,13 @@ Knowledge base for DSSG.
 - https://github.com/ossu/data-science
 - https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452
 
-### 201: Intermediate Data Science / ML / AI 
+### 401: Intermediate Data Science / ML / AI 
 - https://course.fast.ai/
 - https://www.deeplearning.ai/
+- http://cs224d.stanford.edu/
+- https://github.com/simoninithomas/Deep_reinforcement_learning_Course
+- https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+- https://www.udacity.com/course/reinforcement-learning--ud600
 
 ### Online Masters
 - https://www.omscs.gatech.edu/
