@@ -36,4 +36,4 @@ Knowledge base for DSSG.
 | [Online Masters of Science in Computer Science](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)| UT Austin | $10,000 | 18 |
 | [Online Masters of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| UIUC | $21,000 | 25 |
 | [Online Masters of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| UIUC | $21,000 | 25 |
-| [Masters of Analytics](http://spms.ntu.edu.sg/MathematicalSciences/Analytics-@-MAS/Pages/MSc-in-Analytics-Programme.aspx)| NTU | $23,500 | 29 |
+| [Master of Science in Analytics](http://spms.ntu.edu.sg/MathematicalSciences/Analytics-@-MAS/Pages/MSc-in-Analytics-Programme.aspx)| NTU | $23,500 | 29 |
