@@ -23,8 +23,8 @@ Knowledge base for DSSG.
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
 
-### Further studies
-- [Skillsfuture study award for Singaporeans, $5,000 for Masters](http://www.skillsfuture.sg/studyawards/infocomm)
+### Further studies - Masters
+- [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
 - [Online Masters of Science in Computer Science, Georgia Tech, $8,000USD](https://www.omscs.gatech.edu/)
 - [Online Masters of Science in Analytics, Georgia Tech, $10,000USD](https://pe.gatech.edu/degrees/analytics)
 - [Online Masters of Science in Data Science, UIUC, $21,000USD](https://www.coursera.org/degrees/masters-in-computer-data-science)
