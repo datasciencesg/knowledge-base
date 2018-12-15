@@ -23,15 +23,15 @@ Knowledge base for DSSG.
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
 
-### Further studies - Masters from top schools accessible in Singapore, ranked.
+### Further studies - Masters from top schools accessible in Singapore, sorted by price and CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
 - [CS school ranking for reference](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
-- [Online Masters of Science in Computer Science, Georgia Tech(CS rank 7), $8,000USD](https://www.omscs.gatech.edu/)
-- [Online Masters of Science in Analytics, Georgia Tech(CS rank 7), $10,000USD](https://pe.gatech.edu/degrees/analytics)
-- [Master of Science in Business Analytics(CS rank 15), $40,000+SGD](http://msba.nus.edu/)
-- [Online Masters of Science in Computer Science, UT Austin(CS rank 18), $10,000USD](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)
-- [Online Masters of Science in Data Science, UIUC(CS rank 25), $21,000USD](https://www.coursera.org/degrees/masters-in-computer-data-science)
-- [Online Masters of Computer Science, UIUC(CS rank 25), $21,000USD](https://www.coursera.org/degrees/master-of-computer-science-illinois)
 
-
-
+| Course Name  | School | Cost (USD, approx) | CS Rank |
+| ------------- | ------------- | ------------- | ------------- |
+| [Online Masters of Science in Computer Science](https://www.omscs.gatech.edu/)| Georgia Tech | $8,000 | 7 |
+| [Online Masters of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
+| [Master of Science in Business Analytics](http://msba.nus.edu/)| NUS | $30,000| 15 |
+| [Online Masters of Science in Computer Science](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)| UT Austin | $10,000 | 18 |
+| [Online Masters of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| UIUC | $21,000 | 25 |
+| [Online Masters of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| UIUC | $21,000 | 25 |
