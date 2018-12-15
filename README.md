@@ -13,7 +13,6 @@ Knowledge base for DSSG.
 - [What would be useful for aspiring data scientists to know?
 ](https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97)
 - [Open Source Society University - Data Science](https://github.com/ossu/data-science)
-- [Journey Into Data Science](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
 
 ### 401: Intermediate Data Science / ML / AI 
 - [Fast.ai: Practical Deep Learning For Coders, Part 1, taught by Jeremy Howard](https://course.fast.ai/)
@@ -22,6 +21,19 @@ Knowledge base for DSSG.
 - [Deep reinforcement learning Course](https://github.com/simoninithomas/Deep_reinforcement_learning_Course)
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
+
+### Blogs / data news to follow
+- [DataTau](https://www.datatau.com/)
+- [Towards Data Science](https://towardsdatascience.com/)
+- [OpenAi Blog](https://blog.openai.com/)
+- [Kaggle No Free Hunch](http://blog.kaggle.com/)
+- [Simply Statistics](https://simplystatistics.org/)
+- [dataconomy](https://dataconomy.com/)
+
+### Sharing about the Data Journey
+- [Rosebud Anwuri's Journey](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
+- [Rutger Ruizendaal's Journey](https://towardsdatascience.com/my-journey-into-data-science-ac1d2e09ed03)
+- [Manja Bogicevic's Journey](https://medium.com/datadriveninvestor/how-to-become-a-top-data-scientist-in-6-months-my-journey-and-experience-83a05b5fe167)
 
 ### Further studies - Masters from top schools accessible in Singapore, sorted by price and CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
