@@ -1,7 +1,3 @@
-Knowledge base for DSSG. MOOCs, Hackathons, Kaggle Code sharing goes here
-
-### Good Reads
-
 ### MOOCs
 1. Computing for Data Analysis (Coursera: Johns Hopkins)
 2. R Programming (Coursera: Johns Hopkins)
