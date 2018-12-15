@@ -1,6 +1,12 @@
-Knowledge base for DSSG. MOOCs, Hackathons, Kaggle Code sharing goes here
+Knowledge base for DSSG.
+
+### Overview of the data science industry
+- Common qns: https://www.quora.com/topic/Data-Science/faq
+- Salary survey: http://www.bigcloud.io/2018-data-science-salary-survey-report-usa-europe-apac/
+- General trends: https://www.oreilly.com/topics/data-science
 
 ### 101: Getting Started in Data Science / ML / AI 
+- http://datasciencemasters.org/
 - https://towardsdatascience.com/data-science-curriculum-from-scratch-2018-part-1-35061303c385
 - https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1
 - https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97
