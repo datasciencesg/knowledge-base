@@ -32,6 +32,8 @@ Knowledge base for DSSG.
 | [Online Masters of Science in Computer Science](https://www.omscs.gatech.edu/)| Georgia Tech | $8,000 | 7 |
 | [Online Masters of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
 | [Master of Science in Business Analytics](http://msba.nus.edu/)| NUS | $30,000| 15 |
+| [Master of Science in Computer Science](https://www.comp.nus.edu.sg/programmes/pg/mcs/)| NUS | $30,000| 15 |
 | [Online Masters of Science in Computer Science](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)| UT Austin | $10,000 | 18 |
 | [Online Masters of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| UIUC | $21,000 | 25 |
 | [Online Masters of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| UIUC | $21,000 | 25 |
+| [Masters of Analytics](http://spms.ntu.edu.sg/MathematicalSciences/Analytics-@-MAS/Pages/MSc-in-Analytics-Programme.aspx)| NTU | $23,500 | 29 |
