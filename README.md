@@ -1,12 +1,11 @@
 Knowledge base for DSSG. MOOCs, Hackathons, Kaggle Code sharing goes here
 
-### Good Reads
+### 101: Getting Started in Data Science / ML / AI 
+- https://towardsdatascience.com/data-science-curriculum-from-scratch-2018-part-1-35061303c385?fbclid=IwAR2a7s-mfEOfptJiWDPOK2pLD9Np2hMqTE_PHAjngsM1PEQuOHlln6yX7DI
+- https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1
+- https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97
+- 
 
-### MOOCs
-1. Computing for Data Analysis (Coursera: Johns Hopkins)
-2. R Programming (Coursera: Johns Hopkins)
-3. Getting and Cleaning Data (Coursera: Johns Hopkins)
-4. Data Analysis and Statistical Inference (Coursera: Duke)
-5. Introduction to Computer Science and Python (edX: MIT)
-6. Introduction to Statistical Learning (Stanford OpenX)
-7. More to come...
+### 201: Intermediate Data Science / ML / AI 
+- https://course.fast.ai/
+- https://www.deeplearning.ai/
