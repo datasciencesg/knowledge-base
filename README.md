@@ -13,6 +13,7 @@ Knowledge base for DSSG.
 - [What would be useful for aspiring data scientists to know?
 ](https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97)
 - [Open Source Society University - Data Science](https://github.com/ossu/data-science)
+- [How to self-learn statistics of data science](https://medium.com/ml-research-lab/how-to-self-learn-statistics-of-data-science-c05db1f7cfc3)
 
 ### 401: Intermediate Data Science / ML / AI 
 - [Fast.ai: Practical Deep Learning For Coders, Part 1, taught by Jeremy Howard](https://course.fast.ai/)
