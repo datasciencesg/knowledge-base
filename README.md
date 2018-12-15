@@ -6,12 +6,11 @@ Knowledge base for DSSG.
 - General trends: https://www.oreilly.com/topics/data-science
 
 ### 101: Getting Started in Data Science / ML / AI 
-- http://datasciencemasters.org/
+- https://github.com/datasciencemasters/go
 - https://towardsdatascience.com/data-science-curriculum-from-scratch-2018-part-1-35061303c385
 - https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1
 - https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97
 - https://github.com/ossu/data-science
-- https://github.com/datasciencemasters/go
 - https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452
 
 ### 201: Intermediate Data Science / ML / AI 
