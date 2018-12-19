@@ -4,6 +4,7 @@ Knowledge base for DSSG.
 - [Quora Data Science FAQs](https://www.quora.com/topic/Data-Science/faq)
 - [Bigcloud Data Science Salary Survey](http://www.bigcloud.io/2018-data-science-salary-survey-report-usa-europe-apac/)
 - [O'reilly General Data Science Trends](https://www.oreilly.com/topics/data-science)
+- [Be a T-shaped Data Person](https://www.oreilly.com/library/view/analyzing-the-analyzers/9781449368388/ch04.html)
 
 ### 101: Getting Started in Data Science / ML / AI 
 - [The Open Source Data Science Masters](http://datasciencemasters.org/)
@@ -13,10 +14,14 @@ Knowledge base for DSSG.
 - [What would be useful for aspiring data scientists to know?
 ](https://blog.insightdatascience.com/what-would-be-useful-for-aspiring-data-scientists-to-know-4ce0baf65d97)
 - [Open Source Society University - Data Science](https://github.com/ossu/data-science)
+
+### Statistical Learning
 - [Introduction to Statistical Learning:
 With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectures.html)
+- [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
+- [Methods and Statistics in Social Sciences Specialization](https://www.coursera.org/specializations/social-science)
 
-### 401: Intermediate Data Science / ML / AI 
+### Specialized Topics in Data Science / ML / AI 
 - [Fast.ai: Practical Deep Learning For Coders, Part 1, taught by Jeremy Howard](https://course.fast.ai/)
 - [Deeplearning.ai by Andrew Ng](https://www.deeplearning.ai/)
 - [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
@@ -39,7 +44,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 
 ### Further studies - Masters from top schools accessible in Singapore, sorted by price and CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
-- [CS school ranking for reference](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
+- [Times higher education CS school ranking](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
 - Online masters listed below have the same recognition as their offline counterparts; the diploma and the transcripts will not mention the online mode of delivery.
 
 | Course Name  | School | Cost (USD, approx) | CS Rank |
