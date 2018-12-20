@@ -1,6 +1,4 @@
-Knowledge base for DSSG.
-
-Community Contribution: @ryzalk, @David Leonardi
+Knowledge base for DSSG. Special thanks to community contributers: @ryzalk, @David Leonardi
 
 ### Overview of the data science industry
 - [Quora Data Science FAQs](https://www.quora.com/topic/Data-Science/faq)
