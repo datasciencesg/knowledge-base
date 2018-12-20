@@ -17,8 +17,6 @@ Knowledge base for DSSG.
 - [MIT: The Analytics Edge](https://www.edx.org/course/the-analytics-edge)
 - [Andrew Ng: Machine Learning](https://www.coursera.org/learn/machine-learning)
 - [CMU: Machine Learning](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml)
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-- [R for Data Science](https://r4ds.had.co.nz/)
 
 ### Statistical Learning
 - [Introduction to Statistical Learning:
@@ -33,6 +31,10 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Deep reinforcement learning Course](https://github.com/simoninithomas/Deep_reinforcement_learning_Course)
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
+
+### Language
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [R for Data Science](https://r4ds.had.co.nz/)
 - [Advanced R](http://adv-r.had.co.nz/)
 
 ### Blogs / data news to follow
