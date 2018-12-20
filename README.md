@@ -45,7 +45,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Freddie Odukomaiya's Journey](https://medium.com/@FreddieO/how-to-become-a-data-scientist-in-12-months-7e0deb51fac5)
 - [Manja Bogicevic's Journey](https://medium.com/datadriveninvestor/how-to-become-a-top-data-scientist-in-6-months-my-journey-and-experience-83a05b5fe167)
 
-### Further studies - Masters from top schools accessible in Singapore, sorted by price and CS ranking.
+### Further studies - Masters from top schools accessible in Singapore, sorted by CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
 - [Times higher education CS school ranking](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
 - Online masters listed below have the same recognition as their offline counterparts; the diploma and the transcripts will not mention the online mode of delivery.
@@ -56,6 +56,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 | [Online Master of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
 | [Master of Science in Business Analytics](http://msba.nus.edu/)| NUS | $30,000| 15 |
 | [Master of Science in Computer Science](https://www.comp.nus.edu.sg/programmes/pg/mcs/)| NUS | $30,000| 15 |
+| [Master of Technology](https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes)| NUS-ISS | $15,000| 15 |
 | [Online Master of Science in Computer Science](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)| UT Austin | $10,000 | 18 |
 | [Online Master of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| UIUC | $21,000 | 25 |
 | [Online Master of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| UIUC | $21,000 | 25 |
