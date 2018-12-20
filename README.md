@@ -1,5 +1,7 @@
 Knowledge base for DSSG.
 
+Community Contribution: @ryzalk, @David Leonardi
+
 ### Overview of the data science industry
 - [Quora Data Science FAQs](https://www.quora.com/topic/Data-Science/faq)
 - [Bigcloud Data Science Salary Survey](http://www.bigcloud.io/2018-data-science-salary-survey-report-usa-europe-apac/)
