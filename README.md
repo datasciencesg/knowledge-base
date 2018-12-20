@@ -32,6 +32,11 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
 
+### Language
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Advanced R](http://adv-r.had.co.nz/)
+
 ### Blogs / data news to follow
 - [DataTau](https://www.datatau.com/)
 - [Towards Data Science](https://towardsdatascience.com/)
