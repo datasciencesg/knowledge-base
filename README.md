@@ -32,11 +32,14 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [Reinforcement Learning by Georgia Tech](https://www.udacity.com/course/reinforcement-learning--ud600)
 - [Computer Vision with OpenCV](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
+- [Peter Norvig's Spell Corrector Tutorial](http://www.norvig.com/spell-correct.html)
 
 ### Language
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [Advanced R](http://adv-r.had.co.nz/)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [Tensorflow Tutorials](https://www.tensorflow.org/tutorials/)
 
 ### Blogs / data news to follow
 - [DataTau](https://www.datatau.com/)
