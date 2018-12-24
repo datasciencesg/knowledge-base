@@ -5,6 +5,7 @@ Knowledge base for DSSG. Special thanks to community contributers: [@ryzalk](htt
 - [Bigcloud Data Science Salary Survey](http://www.bigcloud.io/2018-data-science-salary-survey-report-usa-europe-apac/)
 - [O'reilly General Data Science Trends](https://www.oreilly.com/topics/data-science)
 - [Be a T-shaped Data Person](https://www.oreilly.com/library/view/analyzing-the-analyzers/9781449368388/ch04.html)
+- [Essential Data Skills — Supply and Demand on the Job Market from Kaggle Data](https://towardsdatascience.com/essential-data-skills-supply-and-demand-on-the-job-market-4f7dffa23b70)
 
 ### Getting Started in Data Science / ML / AI 
 - [The Open Source Data Science Masters](http://datasciencemasters.org/)
