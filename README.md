@@ -54,6 +54,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Rosebud Anwuri's Journey](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
 - [Freddie Odukomaiya's Journey](https://medium.com/@FreddieO/how-to-become-a-data-scientist-in-12-months-7e0deb51fac5)
 - [Manja Bogicevic's Journey](https://medium.com/datadriveninvestor/how-to-become-a-top-data-scientist-in-6-months-my-journey-and-experience-83a05b5fe167)
+- [How do I become a data scientist without a PhD?](https://www.quora.com/How-do-I-become-a-data-scientist-without-a-PhD/answer/Thia-Kai-Xin)
 
 ### Further studies - Masters from top schools accessible in Singapore, sorted by CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
