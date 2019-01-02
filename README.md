@@ -39,7 +39,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [Advanced R](http://adv-r.had.co.nz/)
-- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/) | [PyTorch Udacity Course](https://www.udacity.com/course/deep-learning-pytorch--ud188)
 - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials/)
 
 ### Blogs / data news to follow
