@@ -50,6 +50,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Kaggle No Free Hunch](http://blog.kaggle.com/)
 - [Simply Statistics](https://simplystatistics.org/)
 - [dataconomy](https://dataconomy.com/)
+- [Kaggle Paper Reading Group](https://www.youtube.com/watch?v=54uLU7Nxyv8&list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9&index=4)
 
 ### Sharing about the Data Journey
 - [Rosebud Anwuri's Journey](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
