@@ -35,6 +35,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Computer Vision with OpenCV](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
 - [Peter Norvig's Spell Corrector Tutorial](http://www.norvig.com/spell-correct.html)
 - [Free interactive deep learning book & course by Berkeley](http://d2l.ai/index.html)
+- [Browse state-of-the-art papers with code](https://paperswithcode.com/sota)
 
 ### Language
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
