@@ -37,6 +37,8 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 - [Probabilistic Graphical Models](https://www.coursera.org/specializations/probabilistic-graphical-models)
 - [Forecasting: Principles and Practice](https://otexts.org/fpp2/)
+- [Free interactive deep learning book & course by Berkeley](http://d2l.ai/index.html)
+- [Browse state-of-the-art papers with code](https://paperswithcode.com/sota)
 
 ### Language and Frameworks
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
@@ -53,6 +55,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 - [Kaggle No Free Hunch](http://blog.kaggle.com/)
 - [Simply Statistics](https://simplystatistics.org/)
 - [dataconomy](https://dataconomy.com/)
+- [Kaggle Paper Reading Group](https://www.youtube.com/watch?v=54uLU7Nxyv8&list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9&index=4)
 
 ### Sharing about the Data Journey
 - [Rosebud Anwuri's Journey](https://towardsdatascience.com/my-journey-into-data-science-39e9bbbbf452)
@@ -69,6 +72,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 | ------------- | ------------- | ------------- | ------------- |
 | [Online Master of Science in Computer Science](https://www.omscs.gatech.edu/)| Georgia Tech | $8,000 | 7 |
 | [Online Master of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
+| [Online Master of Science in Cybersecurity](https://pe.gatech.edu/degrees/cybersecurity)| Georgia Tech | $10,000 | 7 |
 | [Master of Science in Business Analytics](http://msba.nus.edu/)| NUS | $30,000| 15 |
 | [Master of Science in Computer Science](https://www.comp.nus.edu.sg/programmes/pg/mcs/)| NUS | $30,000| 15 |
 | [Master of Technology](https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes)| NUS-ISS | $15,000| 15 |
