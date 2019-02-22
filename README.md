@@ -68,6 +68,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 | ------------- | ------------- | ------------- | ------------- |
 | [Online Master of Science in Computer Science](https://www.omscs.gatech.edu/)| Georgia Tech | $8,000 | 7 |
 | [Online Master of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
+| [Online Master of Science in Cybersecurity](https://pe.gatech.edu/degrees/cybersecurity)| Georgia Tech | $10,000 | 7 |
 | [Master of Science in Business Analytics](http://msba.nus.edu/)| NUS | $30,000| 15 |
 | [Master of Science in Computer Science](https://www.comp.nus.edu.sg/programmes/pg/mcs/)| NUS | $30,000| 15 |
 | [Master of Technology](https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes)| NUS-ISS | $15,000| 15 |
