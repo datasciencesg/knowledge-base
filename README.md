@@ -1,4 +1,4 @@
-Knowledge base for DSSG. Special thanks to community contributers: [@ryzalk](https://github.com/ryzalk), @David Leonardi, @Dexter Ang
+Knowledge base for DSSG. Special thanks to community contributers: [@ryzalk](https://github.com/ryzalk), @David Leonardi, @Dexter Ang, @kennethlimjf
 
 ### Overview of the data science industry
 - [Quora Data Science FAQs](https://www.quora.com/topic/Data-Science/faq)
