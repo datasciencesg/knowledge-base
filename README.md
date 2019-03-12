@@ -70,6 +70,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 
 | Course Name  | School | Cost (USD, approx) | CS Rank |
 | ------------- | ------------- | ------------- | ------------- |
+| [Online Master of Science in Computer Science](https://online.stanford.edu/programs/computer-science-ms-degree)| Stanford | $50,000 | 3 |
 | [Online Master of Science in Computer Science](https://www.omscs.gatech.edu/)| Georgia Tech | $8,000 | 7 |
 | [Online Master of Science in Analytics](https://pe.gatech.edu/degrees/analytics)| Georgia Tech | $10,000 | 7 |
 | [Online Master of Science in Cybersecurity](https://pe.gatech.edu/degrees/cybersecurity)| Georgia Tech | $10,000 | 7 |
