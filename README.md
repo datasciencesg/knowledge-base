@@ -78,6 +78,6 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 | [Master of Science in Computer Science](https://www.comp.nus.edu.sg/programmes/pg/mcs/)| NUS | $30,000| 15 |
 | [Master of Technology](https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes)| NUS-ISS | $15,000| 15 |
 | [Online Master of Science in Computer Science](https://www.cs.utexas.edu/graduate-program/masters-program/online-option)| UT Austin | $10,000 | 18 |
-| [Online Master of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| UIUC | $21,000 | 25 |
-| [Online Master of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| UIUC | $21,000 | 25 |
+| [Online Master of Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science)| Illinois (UIUC) | $21,000 | 25 |
+| [Online Master of Computer Science](https://www.coursera.org/degrees/master-of-computer-science-illinois)| Illinois (UIUC) | $21,000 | 25 |
 | [Master of Science in Analytics](http://spms.ntu.edu.sg/MathematicalSciences/Analytics-@-MAS/Pages/MSc-in-Analytics-Programme.aspx)| NTU | $23,500 | 29 |
