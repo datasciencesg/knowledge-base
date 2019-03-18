@@ -66,7 +66,7 @@ With Applications in R](http://fs2.american.edu/alberto/www/analytics/ISLRLectur
 ### Further studies - Masters from top schools accessible in Singapore, sorted by CS ranking.
 - [Skillsfuture study award for Singaporeans, $5,000 sponsorship for CS/DS Masters](http://www.skillsfuture.sg/studyawards/infocomm)
 - [Times higher education CS school ranking](https://www.timeshighereducation.com/world-university-rankings/2019/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)
-- Online masters listed below have the same recognition and rigour as their offline counterparts; the diploma and the transcripts will not mention the online mode of delivery.
+- Online masters listed below have the same recognition and rigour as their offline counterparts; the diploma will not mention the online mode of delivery.
 
 | Course Name  | School | Cost (USD, approx) | CS Rank |
 | ------------- | ------------- | ------------- | ------------- |
